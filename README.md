@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/btomala/akka-http-twirl.svg?branch=master)](https://travis-ci.org/btomala/akka-http-twirl)
-[![Download](https://api.bintray.com/packages/btomala/maven/akka-http-twirl/images/download.svg) ](https://bintray.com/btomala/maven/akka-http-twirl/_latestVersion)
+[![Build Status](https://travis-ci.org/thoughtworksinc/akka-http-twirl.svg?branch=master)](https://travis-ci.org/btomala/akka-http-twirl)
+[![Maven Central](https://img.shields.io/maven-central/v/com.thoughtworks.akka-http-twirl/akka-http-twirl_2.11.svg)](https://maven-badges.herokuapp.com/maven-central/com.thoughtworks.akka-http-twirl/akka-http-twirl_2.11)
 
 # akka-http-twirl #
 
