@@ -21,12 +21,10 @@ addSbtPlugin("com.typesafe.sbt"  % "sbt-twirl"            % "1.1.1")
 ```
 
 build.sbt
-```scala 
-resolvers += "Bartek's repo at Bintray" at "https://dl.bintray.com/btomala/maven"
+``` sbt
+enablePlugins(SbtTwirl)
 
-lazy val myProject = (project in file(".")).enablePlugins(SbtTwirl)
-
-libraryDependencies += "btomala" %% "akka-http-twirl" % "lastVersion"
+libraryDependencies += "com.thoughtworks.akka-http-twirl" %% "akka-http-twirl" % "latest.release"
 ```
 
 ## Usage
