@@ -1,4 +1,4 @@
-package akkahttptwirl
+package com.thoughtworks.akka.http
 
 import akka.http.scaladsl.marshalling.{Marshaller, ToEntityMarshaller}
 import akka.http.scaladsl.model.MediaTypes._

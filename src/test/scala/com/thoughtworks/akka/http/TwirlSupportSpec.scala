@@ -1,4 +1,4 @@
-package akkahttptwirl
+package com.thoughtworks.akka.http
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.marshalling.Marshal

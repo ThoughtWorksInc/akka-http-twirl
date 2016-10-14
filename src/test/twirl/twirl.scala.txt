@@ -1,2 +1,0 @@
-@(foo: akkahttptwirl.stub.Foo)
-Welcome @foo.bar!

@@ -1,0 +1,2 @@
+@(foo: com.thoughtworks.akka.http.stub.Foo)
+<welcome>@foo.bar</welcome>

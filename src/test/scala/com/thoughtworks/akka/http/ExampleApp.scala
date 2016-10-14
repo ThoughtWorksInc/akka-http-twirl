@@ -1,13 +1,14 @@
-package akkahttptwirl
+package com.thoughtworks.akka.http
+
+import java.io.{BufferedReader, InputStreamReader}
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
-import akka.stream.{ActorMaterializer,Materializer}
+import akka.stream.{ActorMaterializer, Materializer}
 import stub.Foo
 
 import scala.concurrent.ExecutionContext
-import scala.io.StdIn
 
 object ExampleApp {
 
@@ -18,7 +19,9 @@ object ExampleApp {
 
     Http().bindAndHandle(route, "127.0.0.1", 8080)
 
-    StdIn.readLine("Hit ENTER to exit")
+    val stdIn = new BufferedReader(new InputStreamReader(System.in))
+    println("Hit ENTER to exit")
+    stdIn.readLine()
     system.shutdown()
     system.awaitTermination()
   }
