@@ -1,5 +1,3 @@
-enablePlugins(SbtTwirl, GitVersioning)
-
 name := "akka-http-twirl"
 
 crossScalaVersions in ThisBuild := Seq("2.10.6", "2.11.8")
