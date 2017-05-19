@@ -11,13 +11,13 @@ This fork adds Scala 2.10 support.
 
 ## Installation
 
-depend on akka-http version 2.0.4
+depend on akka-http version 10.0.6
 
 Don't forget add twirl plugin.
 
 plugins.sbt
 ```scala
-addSbtPlugin("com.typesafe.sbt"  % "sbt-twirl"            % "1.1.1")
+addSbtPlugin("com.typesafe.sbt"  % "sbt-twirl"            % "1.3.0")
 ```
 
 build.sbt
